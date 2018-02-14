@@ -2,7 +2,7 @@ scrudex2,scrudex2,0,dbname
 it_recordies,it_recordies,0,sqltable
 tbl_index,tbl Index,1,INT(11) unsigned NOT NULL auto_increment,
 rank,rank,1,INT(11) unsigned NOT NULL,
-materiomics_name,materiomic name,0,VARCHAR(255) NOT NULL,
+brexit_name,brexit name,0,VARCHAR(255) NOT NULL,
 industries,industries,0,VARCHAR(255) NOT NULL,
 revenue,revenue,1,FLOAT(9,2) NOT NULL,
 project_year,project year,0,YEAR(4) NOT NULL,

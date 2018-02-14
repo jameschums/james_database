@@ -18,7 +18,7 @@ fprintf (webappcode, "         \173 \042data\042\072 \042market_cap\042 \175\054
 fprintf (webappcode, "         \173 \042data\042\072 \042headquarters\042 \175\054   \n"); */
 }
 i=3;
-/* fprintf (webappcode, "         \173 \042data\042\072 \042materiomics_name\042\054   \042sClass\042\072 \042materiomics_name\042 \175\054   \n"); */
+/* fprintf (webappcode, "         \173 \042data\042\072 \042brexit_name\042\054   \042sClass\042\072 \042brexit_name\042 \175\054   \n"); */
 fprintf (webappcode, "         \173 \042data\042\072 \042functions\042\054      \042sClass\042\072 \042functions\042 \175   \n"); 
 fprintf (webappcode, "       \135\054   \n"); 
 fprintf (webappcode, "       \042aoColumnDefs\042\072 \133   \n"); 
@@ -133,7 +133,7 @@ for (i=3; i < tablenummer; i++)
 fprintf (webappcode, "       \044\050\047\043form_record \043%s\047\051\056val\050\047\047\051\073   \n",dbsql_ptr[i]);
 } 
 i=3;
-/*fprintf (webappcode, "       \044\050\047\043form_record \043materiomics_name\047\051\056val\050\047\047\051\073   \n"); 
+/*fprintf (webappcode, "       \044\050\047\043form_record \043brexit_name\047\051\056val\050\047\047\051\073   \n"); 
 fprintf (webappcode, "       \044\050\047\043form_record \043industries\047\051\056val\050\047\047\051\073   \n"); 
 fprintf (webappcode, "       \044\050\047\043form_record \043revenue\047\051\056val\050\047\047\051\073   \n"); 
 fprintf (webappcode, "       \044\050\047\043form_record \043project_year\047\051\056val\050\047\047\051\073   \n"); 
@@ -207,7 +207,7 @@ i=3;
 for (i=3; i<tablenummer; i++)
 { 
 fprintf (webappcode, "           \044\050\047\043form_record \043%s\047\051\056val\050output\056data\1330\135\056%s\051\073   \n",dbsql_ptr[i],dbsql_ptr[i]); 
-/*fprintf (webappcode, "           \044\050\047\043form_record \043materiomics_name\047\051\056val\050output\056data\1330\135\056materiomics_name\051\073   \n"); 
+/*fprintf (webappcode, "           \044\050\047\043form_record \043brexit_name\047\051\056val\050output\056data\1330\135\056brexit_name\051\073   \n"); 
 fprintf (webappcode, "           \044\050\047\043form_record \043industries\047\051\056val\050output\056data\1330\135\056industries\051\073   \n"); 
 fprintf (webappcode, "           \044\050\047\043form_record \043revenue\047\051\056val\050output\056data\1330\135\056revenue\051\073   \n"); 
 fprintf (webappcode, "           \044\050\047\043form_record \043project_year\047\051\056val\050output\056data\1330\135\056project_year\051\073   \n"); 

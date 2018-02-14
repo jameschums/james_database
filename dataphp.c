@@ -116,7 +116,7 @@ for ( i = 3; i < (tablenummer) ; i++)
 /*i=tablenummer; */
 /*fprintf (datacode, "     \042%s\042 \075\076 \044record[\047%s\047] \n",dbsql_ptr[i],dbsql_ptr[i]); */
 i=3;
-/*fprintf (datacode, "              \042materiomics_name\042  \075\076 \044record[\047materiomics_name\047]\054   \n");
+/*fprintf (datacode, "              \042brexit_name\042  \075\076 \044record[\047brexit_name\047]\054   \n");
 fprintf (datacode, "              \042industries\042    \075\076 \044record[\047industries\047]\054   \n");
 fprintf (datacode, "              \042revenue\042       \075\076 \044record[\047revenue\047]\054   \n");
 fprintf (datacode, "              \042project_year\042   \075\076 \044record[\047project_year\047]\054   \n");
@@ -146,7 +146,7 @@ for (i=3; i< (tablenummer); i++)
   printf ("%d  tablenummer...second loop in data.php and i is %d\n",tablenummer,i);
 }
 
-/*fprintf (datacode, "      if \050isset\050\044_GET[\047materiomics_name\047]\051\051 \173 \044query \056\075 \042materiomics_name \075 \047\042 \056 mysqli_real_escape_string\050\044db_connection\054 \044_GET[\047materiomics_name\047]\051 \056 \042\047\054 \042\073 \175   \n");
+/*fprintf (datacode, "      if \050isset\050\044_GET[\047brexit_name\047]\051\051 \173 \044query \056\075 \042brexit_name \075 \047\042 \056 mysqli_real_escape_string\050\044db_connection\054 \044_GET[\047brexit_name\047]\051 \056 \042\047\054 \042\073 \175   \n");
 fprintf (datacode, "      if \050isset\050\044_GET[\047industries\047]\051\051   \173 \044query \056\075 \042industries   \075 \047\042 \056 mysqli_real_escape_string\050\044db_connection\054 \044_GET[\047industries\047]\051   \056 \042\047\054 \042\073 \175   \n");
 fprintf (datacode, "      if \050isset\050\044_GET[\047revenue\047]\051\051      \173 \044query \056\075 \042revenue      \075 \047\042 \056 mysqli_real_escape_string\050\044db_connection\054 \044_GET[\047revenue\047]\051      \056 \042\047\054 \042\073 \175   \n");
 fprintf (datacode, "      if \050isset\050\044_GET[\047project_year\047]\051\051  \173 \044query \056\075 \042project_year  \075 \047\042 \056 mysqli_real_escape_string\050\044db_connection\054 \044_GET[\047project_year\047]\051  \056 \042\047\054 \042\073 \175   \n");
@@ -184,7 +184,7 @@ if ( lastloop > i )
 printf ("data loop 4 tablenummer is %d and lastloop is %d and i is %d\n",tablenummer,lastloop,i);
 }
 /*i=tablenummer; */
-/*fprintf (datacode, "        if \050isset\050\044_GET[\047materiomics_name\047]\051\051 \173 \044query \056\075 \042materiomics_name \075 \047\042 \056 mysqli_real_escape_string\050\044db_connection\054 \044_GET[\047materiomics_name\047]\051 \056 \042\047\054 \042\073 \175   \n");
+/*fprintf (datacode, "        if \050isset\050\044_GET[\047brexit_name\047]\051\051 \173 \044query \056\075 \042brexit_name \075 \047\042 \056 mysqli_real_escape_string\050\044db_connection\054 \044_GET[\047brexit_name\047]\051 \056 \042\047\054 \042\073 \175   \n");
 fprintf (datacode, "        if \050isset\050\044_GET[\047industries\047]\051\051   \173 \044query \056\075 \042industries   \075 \047\042 \056 mysqli_real_escape_string\050\044db_connection\054 \044_GET[\047industries\047]\051   \056 \042\047\054 \042\073 \175   \n");
 fprintf (datacode, "        if \050isset\050\044_GET[\047revenue\047]\051\051      \173 \044query \056\075 \042revenue      \075 \047\042 \056 mysqli_real_escape_string\050\044db_connection\054 \044_GET[\047revenue\047]\051      \056 \042\047\054 \042\073 \175   \n");
 fprintf (datacode, "        if \050isset\050\044_GET[\047project_year\047]\051\051  \173 \044query \056\075 \042project_year  \075 \047\042 \056 mysqli_real_escape_string\050\044db_connection\054 \044_GET[\047project_year\047]\051  \056 \042\047\054 \042\073 \175   \n");

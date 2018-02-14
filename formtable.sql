@@ -6,7 +6,7 @@
    `indexoftable` INT(11) unsigned NOT NULL auto_increment, 
    `scores` INT(11) unsigned NOT NULL, 
    `textinform_name` VARCHAR(255) NOT NULL, 
-   `materiomic` VARCHAR(255) NOT NULL, 
+   `Brexit` VARCHAR(255) NOT NULL, 
    `topchip` INT(11) unsigned NOT NULL, 
    `screening_year` YEAR(4) NOT NULL, 
    `flowers` INT(11) unsigned NOT NULL, 

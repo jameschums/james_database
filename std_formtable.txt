@@ -1,0 +1,11 @@
+scrudex2,scrudex2,0,dbname
+it_recordies,it_recordies,0,sqltable
+tbl_index,tbl Index,1,INT(11) unsigned NOT NULL auto_increment,
+rank,rank n,1,INT(11) unsigned NOT NULL,
+brexit_name,brexit name t,0,VARCHAR(255) NOT NULL,
+industries,industries t,0,VARCHAR(255) NOT NULL,
+revenue,revenue n,1,FLOAT(9\0542) NOT NULL,
+project_year,project year n,1,YEAR(4) NOT NULL,
+employees,employees n,1,INT(11) unsigned NOT NULL,
+market_cap,market cap n,1,FLOAT(9\0542) NOT NULL,
+headquarters,headquarters d,0,DATE NOT NULL,

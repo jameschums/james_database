@@ -6,7 +6,7 @@
        "columns": [   
          { "data": "scores" },   
          { "data": "textinform_name",   "sClass": "textinform_name" }, 
-         { "data": "materiomic" },   
+         { "data": "brexit" },   
          { "data": "topchip" },   
          { "data": "screening_year" },   
          { "data": "flowers" },   
@@ -126,7 +126,7 @@
        $('#form_record .field_container').removeClass('valid').removeClass('error');   
        $('#form_record #scores').val('');   
        $('#form_record #textinform_name').val('');   
-       $('#form_record #materiomic').val('');   
+       $('#form_record #brexit').val('');   
        $('#form_record #topchip').val('');   
        $('#form_record #screening_year').val('');   
        $('#form_record #flowers').val('');   
@@ -201,7 +201,7 @@
            $('#form_record .field_container').removeClass('valid').removeClass('error');   
            $('#form_record #scores').val(output.data[0].scores);   
            $('#form_record #textinform_name').val(output.data[0].textinform_name);   
-           $('#form_record #materiomic').val(output.data[0].materiomic);   
+           $('#form_record #brexit').val(output.data[0].brexit);   
            $('#form_record #topchip').val(output.data[0].topchip);   
            $('#form_record #screening_year').val(output.data[0].screening_year);   
            $('#form_record #flowers').val(output.data[0].flowers);   

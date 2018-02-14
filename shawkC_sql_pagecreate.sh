@@ -18,7 +18,7 @@ printf "\n" >> sql_write.c
 awk 'BEGIN {FS=","}{printf "dbsql_ptr[%d] = dbsql_%d\073 \057\052 %s \052\057\n",(NR-1),(NR-1),$1} END {printf "\n"}' formtable.txt >> sql_write.c
 printf "if (dbsql_ptr == NULL)\n" >> sql_write.c
 printf "{\n" >> sql_write.c
-printf " printf \050\042\134nMemory allocation is as successful at materiomics - failed ending program.\134n\042\051\073\n" >> sql_write.c
+printf " printf \050\042\134nMemory allocation is as successful at brexit - failed ending program.\134n\042\051\073\n" >> sql_write.c
 printf " return 1\073\n" >> sql_write.c
 printf "}\n" >> sql_write.c
 printf "\n" >> sql_write.c
@@ -31,7 +31,7 @@ awk 'BEGIN {FS="," }{printf "disply_ptr[%d] = disply_%d\073 \057\052 %s \052\057
 printf "\n" >> sql_write.c
 printf "if (disply_ptr == NULL)\n" >> sql_write.c
 printf "{\n" >> sql_write.c
-printf " printf \050\042\134nMemory allocation is as successful at materiomics - failed ending program.\134n\042\051\073\n" >> sql_write.c
+printf " printf \050\042\134nMemory allocation is as successful at brexit - failed ending program.\134n\042\051\073\n" >> sql_write.c
 printf " return 1\073\n" >> sql_write.c
 printf "}\n" >> sql_write.c
 printf "\n" >> sql_write.c

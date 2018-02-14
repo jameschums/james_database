@@ -13,7 +13,7 @@ fprintf (sqlcode, "   \140%s\140 %s\054 \n",dbsql_ptr[i],disply_ptr[i]);
 }
 i=3;
 /*
-fprintf (sqlcode, "   \140materiomics_name\140 VARCHAR\050255\051 NOT NULL\054 \n"); 
+fprintf (sqlcode, "   \140brexit_name\140 VARCHAR\050255\051 NOT NULL\054 \n"); 
 fprintf (sqlcode, "   \140industries\140 VARCHAR\050255\051 NOT NULL\054 \n"); 
 fprintf (sqlcode, "   \140revenue\140 FLOAT\0509\0542\051 NOT NULL\054 \n"); 
 fprintf (sqlcode, "   \140project_year\140 YEAR\0504\051 NOT NULL\054 \n"); 

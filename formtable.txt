@@ -3,7 +3,7 @@ sillytest,sillytest,0,sqltable
 indexoftable,table Index n,1,INT(11) unsigned NOT NULL auto_increment,
 scores,scores n,1,INT(11) unsigned NOT NULL,
 textinform_name,text info name t,0,VARCHAR(255) NOT NULL,
-materiomic,materiomics bv t,0,VARCHAR(255) NOT NULL,
+Brexit,Brexit t,0,VARCHAR(255) NOT NULL,
 topchip,topochips n,1,INT(11) unsigned NOT NULL,
 screening_year,screen year y,1,YEAR(4) NOT NULL,
 flowers,flowers n,1,INT(11) unsigned NOT NULL,
