@@ -68,7 +68,7 @@
             "scores"          => $record['scores'], 
             "textinform_name"          => $record['textinform_name'], 
             "Brexit"          => $record['Brexit'], 
-            "topchip"          => $record['topchip'], 
+            "dalek"          => $record['dalek'], 
             "screening_year"          => $record['screening_year'], 
             "flowers"          => $record['flowers'], 
             "roses"          => $record['roses'], 
@@ -102,7 +102,7 @@
      "scores" => $record['scores'], 
      "textinform_name" => $record['textinform_name'], 
      "Brexit" => $record['Brexit'], 
-     "topchip" => $record['topchip'], 
+     "dalek" => $record['dalek'], 
      "screening_year" => $record['screening_year'], 
      "flowers" => $record['flowers'], 
      "roses" => $record['roses'], 
@@ -123,7 +123,7 @@
       if (isset($_GET['scores'])) { $query .= "scores = '" . mysqli_real_escape_string($db_connection, $_GET['scores']) . "', "; } 
       if (isset($_GET['textinform_name'])) { $query .= "textinform_name = '" . mysqli_real_escape_string($db_connection, $_GET['textinform_name']) . "', "; } 
       if (isset($_GET['Brexit'])) { $query .= "Brexit = '" . mysqli_real_escape_string($db_connection, $_GET['Brexit']) . "', "; } 
-      if (isset($_GET['topchip'])) { $query .= "topchip = '" . mysqli_real_escape_string($db_connection, $_GET['topchip']) . "', "; } 
+      if (isset($_GET['dalek'])) { $query .= "dalek = '" . mysqli_real_escape_string($db_connection, $_GET['dalek']) . "', "; } 
       if (isset($_GET['screening_year'])) { $query .= "screening_year = '" . mysqli_real_escape_string($db_connection, $_GET['screening_year']) . "', "; } 
       if (isset($_GET['flowers'])) { $query .= "flowers = '" . mysqli_real_escape_string($db_connection, $_GET['flowers']) . "', "; } 
       if (isset($_GET['roses'])) { $query .= "roses = '" . mysqli_real_escape_string($db_connection, $_GET['roses']) . "', "; } 
@@ -152,7 +152,7 @@
   if (isset($_GET['scores'])) { $query .= "scores = '" . mysqli_real_escape_string($db_connection, $_GET['scores']) . "', "; } 
   if (isset($_GET['textinform_name'])) { $query .= "textinform_name = '" . mysqli_real_escape_string($db_connection, $_GET['textinform_name']) . "', "; } 
   if (isset($_GET['Brexit'])) { $query .= "Brexit = '" . mysqli_real_escape_string($db_connection, $_GET['Brexit']) . "', "; } 
-  if (isset($_GET['topchip'])) { $query .= "topchip = '" . mysqli_real_escape_string($db_connection, $_GET['topchip']) . "', "; } 
+  if (isset($_GET['dalek'])) { $query .= "dalek = '" . mysqli_real_escape_string($db_connection, $_GET['dalek']) . "', "; } 
   if (isset($_GET['screening_year'])) { $query .= "screening_year = '" . mysqli_real_escape_string($db_connection, $_GET['screening_year']) . "', "; } 
   if (isset($_GET['flowers'])) { $query .= "flowers = '" . mysqli_real_escape_string($db_connection, $_GET['flowers']) . "', "; } 
   if (isset($_GET['roses'])) { $query .= "roses = '" . mysqli_real_escape_string($db_connection, $_GET['roses']) . "', "; } 

@@ -7,7 +7,7 @@
          { "data": "scores" },   
          { "data": "textinform_name",   "sClass": "textinform_name" }, 
          { "data": "brexit" },   
-         { "data": "topchip" },   
+         { "data": "dalek" },   
          { "data": "screening_year" },   
          { "data": "flowers" },   
          { "data": "roses" },   
@@ -127,7 +127,7 @@
        $('#form_record #scores').val('');   
        $('#form_record #textinform_name').val('');   
        $('#form_record #brexit').val('');   
-       $('#form_record #topchip').val('');   
+       $('#form_record #dalek').val('');   
        $('#form_record #screening_year').val('');   
        $('#form_record #flowers').val('');   
        $('#form_record #roses').val('');   
@@ -202,7 +202,7 @@
            $('#form_record #scores').val(output.data[0].scores);   
            $('#form_record #textinform_name').val(output.data[0].textinform_name);   
            $('#form_record #brexit').val(output.data[0].brexit);   
-           $('#form_record #topchip').val(output.data[0].topchip);   
+           $('#form_record #dalek').val(output.data[0].dalek);   
            $('#form_record #screening_year').val(output.data[0].screening_year);   
            $('#form_record #flowers').val(output.data[0].flowers);   
            $('#form_record #roses').val(output.data[0].roses);   
