@@ -1,0 +1,15 @@
+jamesdbtest,jamesdbtest,0,dbname
+sillytest,sillytest,0,sqltable
+indexoftable,table Index n,1,INT(11) unsigned NOT NULL auto_increment,
+scores,scores n,1,INT(11) unsigned NOT NULL,
+textinform_name,text info name t,0,VARCHAR(255) NOT NULL,
+materiomic,materiomics bv t,0,VARCHAR(255) NOT NULL,
+topchip,topochips n,1,INT(11) unsigned NOT NULL,
+screening_year,screen year y,1,YEAR(4) NOT NULL,
+flowers,flowers n,1,INT(11) unsigned NOT NULL,
+roses,roses in vase n,1,INT(11) unsigned NOT NULL,
+daffodills,dafdodills in vase n,1,INT(11) unsigned  NOT NULL,
+vase,year of vase purchase d,0,DATE NOT NULL,
+gilson_mouse,name of mouse t,0,VARCHAR(255) NOT NULL,
+gilson_cow,name of cow t,0,VARCHAR(255) NOT NULL,
+pipettes,aliquots from pipette n,1,FLOAT(9\0543) NOT NULL,
