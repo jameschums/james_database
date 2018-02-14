@@ -1,0 +1,13 @@
+scrudex2,scrudex2,0,dbname
+morrisdance,morrisdance,0,sqltable
+tableindex,table Index,1,INT(11) unsigned NOT NULL auto_increment,
+scores,scores,1,INT(11) unsigned NOT NULL,
+evotec_info,evotec info,0,VARCHAR(255) NOT NULL,
+drugname,drugname,0,VARCHAR(255) NOT NULL,
+projectcosts,projectcosts,0,VARCHAR(255)  NOT NULL,
+project_year,project year,0,YEAR(4) NOT NULL,
+cyclicester,cyclicester,1,INT(11) unsigned NOT NULL,
+diversity_lib,diveristy libr,0,VARCHAR(255) NOT NULL,
+phenol,phenols,1,INT(11) unsigned NOT NULL,
+carboxylic_acids,carboxylic acids,1,INT(11) unsigned NOT NULL,
+dateofbirth,dateofbirth,0,DATE NOT NULL,
