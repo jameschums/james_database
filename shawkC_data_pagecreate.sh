@@ -1,4 +1,4 @@
-#!/bin/bash
+t#!/bin/bash
 # ls -1 *.tif | awk 'BEGIN {count=0}{count++;}{printf "%d %s\n",count,$1}END{printf "end and total %d\n",count}'
 rm -fr data_write.c data.php data_write.run 
 printf "\057\052 create all pages for db menu and tables edit \052\057\n" >> data_write.c
@@ -31,7 +31,7 @@ awk 'BEGIN {FS="," }{printf "disply_ptr[%d] = disply_%d\073 \057\052 %s \052\057
 printf "\n" >> data_write.c
 printf "if (disply_ptr == NULL)\n" >> data_write.c
 printf "{\n" >> data_write.c
-printf " printf \050\042\134nMemory allocation is as successful at materiomics - failed ending program.\134n\042\051\073\n" >> data_write.c
+printf " printf \050\042\134nMemory allocation is as successful at brexit - failed ending program.\134n\042\051\073\n" >> data_write.c
 printf " return 1\073\n" >> data_write.c
 printf "}\n" >> data_write.c
 printf "\n" >> data_write.c
